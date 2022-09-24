@@ -506,7 +506,7 @@ Assembly.prototype.drawPlot = function(parent_div, longest, circle_span) {
   var txt = lsg.append('text')
     .attr('transform', 'translate(' + (-size / 2 + 10) + ',' + (-size / 2 + 20) + ')')
     .attr('class', 'asm-tl_title');
-  txt.append('tspan').text('Pterophyllum scalare scaffold statistics');
+  txt.append('tspan').text('Pterophyllum scalare scaffold statistics:');
   //txt.append('tspan').text('distribution').attr('x',0).attr('dy',20);
 
   var key = lsg.append('g').attr('transform', 'translate(' + (-size / 2 + 10) + ',' + (-size / 2 + 28) + ')');
